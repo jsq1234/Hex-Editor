@@ -150,7 +150,7 @@ text_scroll.config(command=multiple_yview)
 left.delete('1.0',tk.END)
 right.delete('1.0',tk.END)
 
-filepath = filedialog.askopenfilename(initialdir = '/home/manan/files/', title='Select file',
+filepath = filedialog.askopenfilename(initialdir = '/home', title='Select file',
                                     filetypes = (('text files','*.txt'),('all files','*')))
 
 with open(filepath,'rb') as file: 
